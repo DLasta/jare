@@ -197,7 +197,7 @@
   </div>
  
   <!-- /fifth section -->
-  <!-- google map -->
+  
    <div id="information-kraj" class="pad-section">
     <div class="container">
       <div class="row">
@@ -223,7 +223,7 @@
         </div>
       </div>
     </div>
-
+    </div>
 <div id="services" class="pad-section">
     <div class="container">
       <div class="row featurette">
@@ -267,8 +267,97 @@
 
     </div>
     </div>
-  <div id="google_map"></div>
+    <div class="container">
+    </div>
+  <div class="page-header">
+    <h1 class="text-center">Who am I?</h1>
+  </div>
+  <p class="lead text-center">I am a creative graphic designer focused on modern eye catching designs. I am not only the graphic designer! I can also do complete websites &amp; computer applications.</p>
+  <div class="container">
+    <div class="row stylish-panel">
+      <div class="col-md-4">
+        <div>
+          <img src="http://lorempixel.com/200/200/abstract/1/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+          <h2>Webdesigner</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="btn btn-primary" title="See more">See works »</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div>
+          <img src="http://lorempixel.com/200/200/abstract/2/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+          <h2>Photographer</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="btn btn-primary" title="See more">See works »</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div>
+          <img src="http://lorempixel.com/200/200/abstract/3/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+          <h2>Copywriter</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="btn btn-primary" title="See more">See works »</a>
+        </div>
+      </div>
+    </div>
+    <div class="row stylish-panel">
+      <div class="col-md-4">
+        <div>
+          <img src="http://lorempixel.com/200/200/abstract/4/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+          <h2>Webdesigner</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="btn btn-primary" title="See more">See works »</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div>
+          <img src="http://lorempixel.com/200/200/abstract/5/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+          <h2>Photographer</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="btn btn-primary" title="See more">See works »</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div>
+          <img src="http://lorempixel.com/200/200/abstract/6/" alt="Texto Alternativo" class="img-circle img-thumbnail">
+          <h2>Copywriter</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="btn btn-primary" title="See more">See works »</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- /container -->
+  
   <!-- /google map -->
+   <!-- Add Google Maps -->
+ <!-- Add Google Maps -->
+<div id="map"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(45.622295, 17.090504), zoom: 14
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbDJjSTQvRoNTEgA2SU4jTFkgvg8RNt94&callback=myMap"></script>
   <!-- footer -->
   <footer>
     <hr />
@@ -289,6 +378,7 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
     <script src="js/wow.min.js"></script>
+
               <script>
               new WOW().init();
               </script>
